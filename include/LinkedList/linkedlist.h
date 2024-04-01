@@ -1,10 +1,19 @@
 #ifndef _LINKEDLIST  
 #define _LINKEDLIST
+typedef struct
+{
+    void* data;
+    void* next;
+    void* pre;
+}Node;
 
 typedef struct
 {
-    void * _head;
-    void * tail;
+    Node * _head;
+    Node * _tail;
 }Linkedlist;
+
+void GetHead(Linkedlist*);
+
 
 #endif

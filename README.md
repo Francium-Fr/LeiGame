@@ -14,4 +14,4 @@ We need to formulate the price and Pollution for every reaction.At the same time
 Totally, we need get every material's datas by the program.
 
 # DataBase
-In fact, most of number we had formulate, and hold by .xlxs
+In fact, most of number we had formulated, and hold them by .xlsx

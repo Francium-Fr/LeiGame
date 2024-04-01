@@ -28,13 +28,13 @@ typedef struct
 *@brief input a Reaction 
 *
 **/
-Reaction* RegistReaction(int, char[],int,int,int,int,...);
+Reaction* RegistReaction(int, char[],int,int,int,int,Material*);
 
 /**
 *@brief output a Reaction message
 *
 **/
-void  PrintProduct(Reaction*);
+void  PrintReaction(Reaction*);
 
 /**
 *@brief Caculate once you want to react the Reaction ,
